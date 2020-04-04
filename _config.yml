@@ -1,2 +1,4 @@
 name: Ahana Sen Personal Site
 markdown: kramdown
+plugins:
+  - jekyll-seo-tag
