@@ -2,7 +2,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 border:0;
 font:inherit;
 font-size:100%;
-margin:0;
+margin:500;
 padding:0;
 vertical-align:baseline;
 }
@@ -11,12 +11,13 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
 
-html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+html, body {background: #ffffff; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
 
 .clear {clear: both;}
 
 p {
-	font-size: 1em;
+	font-size: 1.1em;
+	font-family: "Times New Roman", Times, serif;
 	line-height: 1.4em;
 	margin-bottom: 20px;
 	color: #444;
@@ -25,27 +26,28 @@ p {
 #cv {
 	width: 90%;
 	max-width: 800px;
-	background: #f3f3f3;
+	background: #f2eded;
 	margin: 30px auto;
 }
 
 .mainDetails {
-	padding: 25px 35px;
-	border-bottom: 2px solid #cf8a05;
-	background: #ededed;
+	padding: 10px 25px;
+	border-bottom: 2px solid #babcbc;
+	background: #f2eded;
 }
 
 #name h1 {
 	font-size: 2.5em;
 	font-weight: 700;
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-	margin-bottom: -6px;
+	font-family:  Arial, sans-serif;
+	margin-bottom: -20px;
 }
 
 #name h2 {
 	font-size: 2em;
 	margin-left: 2px;
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-family: Arial, sans-serif;
 }
 
 #mainArea {
@@ -123,22 +125,22 @@ section:last-child {
 }
 
 .sectionTitle h1 {
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-family: Arial, sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
-	color: #cf8a05;
+	color: #ff0000;
 }
 
 .sectionContent h2 {
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-	font-size: 1.5em;
-	margin-bottom: -2px;
+	font-family: Arial, sans-serif;
+	font-size: 1.3em;
+	margin-bottom: -13px;
 }
 
 .subDetails {
-	font-size: 0.8em;
+	font-size: 0.9em;
 	font-style: italic;
-	margin-bottom: 3px;
+	margin-bottom: 2px;
 }
 
 .keySkills {
@@ -149,6 +151,7 @@ section:last-child {
 	margin-bottom: 20px;
 	font-size: 1em;
 	color: #444;
+	font-family: Arial, sans-serif;
 }
 
 .keySkills ul li {
@@ -297,59 +300,30 @@ section:last-child {
 }
 
 .instaFade {
-    -webkit-animation-name: reset, fade-in;
-    -webkit-animation-duration: 1.5s;
-    -webkit-animation-timing-function: ease-in;
-	
-	-moz-animation-name: reset, fade-in;
-    -moz-animation-duration: 1.5s;
-    -moz-animation-timing-function: ease-in;
-	
-	animation-name: reset, fade-in;
-    animation-duration: 1.5s;
-    animation-timing-function: ease-in;
+
 }
 
 .quickFade {
-    -webkit-animation-name: reset, fade-in;
-    -webkit-animation-duration: 2.5s;
-    -webkit-animation-timing-function: ease-in;
-	
-	-moz-animation-name: reset, fade-in;
-    -moz-animation-duration: 2.5s;
-    -moz-animation-timing-function: ease-in;
-	
-	animation-name: reset, fade-in;
-    animation-duration: 2.5s;
-    animation-timing-function: ease-in;
+
 }
  
 .delayOne {
-	-webkit-animation-delay: 0, .5s;
-	-moz-animation-delay: 0, .5s;
-	animation-delay: 0, .5s;
+
 }
 
 .delayTwo {
-	-webkit-animation-delay: 0, 1s;
-	-moz-animation-delay: 0, 1s;
-	animation-delay: 0, 1s;
+
 }
 
 .delayThree {
-	-webkit-animation-delay: 0, 1.5s;
-	-moz-animation-delay: 0, 1.5s;
-	animation-delay: 0, 1.5s;
+
 }
 
 .delayFour {
-	-webkit-animation-delay: 0, 2s;
-	-moz-animation-delay: 0, 2s;
-	animation-delay: 0, 2s;
+
 }
 
 .delayFive {
-	-webkit-animation-delay: 0, 2.5s;
-	-moz-animation-delay: 0, 2.5s;
-	animation-delay: 0, 2.5s;
+
+
 }
