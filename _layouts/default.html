@@ -4,13 +4,13 @@
 		<title>{{ page.title }}</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
-		{% seo %}
+
 	</head>
 	<body>
 		<nav>
     		<ul>
     			{% for item in site.data.navigation %}
-        		<li> <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}> {{ item.name }}</a></li>
+        		<li> <a href="{{ item.link }}" {% if page.url == item.link %}style="color: #558be2;"{% endif %}> {{ item.name }}</a></li>
         		{% endfor %}
     		</ul>
 		</nav>

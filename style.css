@@ -32,7 +32,7 @@ p {
 
 .mainDetails {
 	padding: 10px 25px;
-	border-bottom: 2px solid #babcbc;
+	border-bottom: 2px solid #193389;
 	background: #f2eded;
 }
 
@@ -102,7 +102,7 @@ p {
 
 
 section {
-	border-top: 1px solid #dedede;
+	border-top: 1px solid #193389;
 	padding: 20px 0 0;
 }
 
@@ -128,7 +128,7 @@ section:last-child {
 	font-family: Arial, sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
-	color: #ff0000;
+	color: #558be2;
 }
 
 .sectionContent h2 {
