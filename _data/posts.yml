@@ -1,7 +1,11 @@
 - name: Analysis of NYPD Stop and Frisk Data (2011)
-  link: /exam1.html
+  link: /ProjectsContent/exam1.html
   description: Assignment for Duke Data Science 199 class
 
 - name: NC Mortgage Market Analysis
   link: https://apl.reclaim.hosting
   description: Research and Website Development as part of Duke Bass Connections
+
+- name: Modeling Electoral Fairness
+  link: /ProjectsContent/final_writeup.html
+  decsription: Final Project for Stat199 class, analysis of electoral map drawing and effects on measures of electoral fairness
